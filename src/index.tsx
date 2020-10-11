@@ -3,11 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import {splitIntoWords} from "./01-hello-tests/01";
-
-const sentense = "Hello my friends!"
-const result = splitIntoWords(sentense);
-console.log(result);
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
